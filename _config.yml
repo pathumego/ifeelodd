@@ -4,7 +4,7 @@ safe: false
 lsi: false
 pygments: true
  
-baseurl:               /ifeelodd
+baseurl:               /ifeelodd.com
 
 # About/contact
 author:
