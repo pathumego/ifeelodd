@@ -5,6 +5,7 @@ lsi: false
 pygments: true
  
 baseurl: http://pathumego.github.io/ifeelodd.com
+url: http://pathumego.github.io/ifeelodd.com
 
 # About/contact
 author:
