@@ -320,3 +320,10 @@ a#exportxt:hover {
 	.clear{
 		clear:both;
 	}
+
+#logo{
+
+  position: fixed;
+  width: 20%;
+  right: 0;
+}

@@ -2,9 +2,8 @@
 
 
     <div class="col-1-3 mobile-col-1-1">
-        <h1>Libre Graphics Tools Installer Scripts for Ubuntu</h1>
-        <a href='#' id='slideToggle2'><h2>HELP</h2></a>
-        <a href='https://github.com/mooniak/ubuntu-graphics-suite#how-to-add-new-ppas'><h2>ADD PPA'S&#8594;</h2></a>
+        <h1> <img id="logo" src="images/logo.svg"></h1>
+        <a href='#' id='slideToggle2'><h2>info</h2></a>
     </div> 
             
 <br />
@@ -40,44 +39,12 @@
 
 
 
+
+  <img src="images/bg.jpg">
+
+
 <div class="grid grid-pad">
 
-    {% for tag in site.tags %} {% assign t = tag | first %} {% assign posts = tag | last %} {% for post in posts %} {% if post.tags contains t %}
-    <div class="post">
-        <div class="col-1-3">
-
-            <div class="tile {{ post.background }} {{ post.catagory }}">
-
-                <input type="checkbox" id="{{ post.name }}" class="regular-radio" onchange="refreshFeatures()">
-                <label for="{{ post.name }}"></label>
-                <h2>{{ post.title }}</h2>
-                <div class="category">{{ post.category }}{{ post.tags }}&nbsp; </div>
-                <div class="category">{{ post.status }} | Updated {{ post.date | date: '%B %d, %Y' }}</div>
-
-
-
-                </h2> {{ post.content }}
-
-            </div>
-
-        </div>
-
-        {% endif %}</div> {% endfor %} {% endfor %}
-
-</div>
-<div class="grid grid-pad">
-    <div class="col-1-3 mobile-col-1-1 push-1-3">
-        <a id="exportxt" href="#">DOWNLOAD INSTALLER SCRIPTS&nbsp;&#8623;</a>
-        <div style="display:none;" id="editor" class="code_display"></div>
-
- <br/><br/>
-	
-      
- 
-	
- 
-        
-    </div>
     
   
  
