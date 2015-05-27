@@ -1,10 +1,12 @@
 title_tag_text: odd
-h1_tag_text: mooniak
 safe: false
 lsi: false
 pygments: true
  
+
 baseurl: /ifeelodd.com
+
+
 
 # About/contact
 author:
