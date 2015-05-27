@@ -4,6 +4,10 @@ lsi: false
 pygments: true
  
 
+baseurl: /ifeelodd.com
+
+
+
 # About/contact
 author:
   name:              Pathum Egodawatta
